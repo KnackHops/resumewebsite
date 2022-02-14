@@ -1,21 +1,23 @@
-header > .header-icon-con > h1 {
-    display: flex;
-    margin: 5px auto;
-    width: 600px;
-    height: 200px;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    font-size: 42px;
-    background-color: black;
-    color: white;
+div.header-design-con {
+    height: 50vh;
+    min-height: 490px;
+    background-color: rgba( 16, 34, 46, 1 );
+    position: relative;
 }
 
-header::after {
+/* div.header-design-con::before, div.header-design-con::after {
     content: "";
-    height: 2px;
-    width: 100%;
-    background-color: black;
     position: absolute;
-    bottom: 0;
+    width: 100%;
+    bottom: 40px;
 }
+
+div.header-design-con::before {
+    height: 60%;
+    background: linear-gradient( to top, rgba( 253, 131, 1, 1 ) 0%,  rgba( 0, 0, 0, 0 ) 90% );
+}
+
+div.header-design-con::after {
+    height: 20%;
+    background: linear-gradient( to top, rgba( 196, 58, 23, 1 ),  rgba( 0, 0, 0, 0 ) 80% );
+} */

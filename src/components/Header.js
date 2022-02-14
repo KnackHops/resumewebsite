@@ -2,17 +2,23 @@ import './Header.css';
 
 export default () => {
     return ( 
-        <div className='un-pad'>
-            <header>
+        <div>
+            <div className='header-design-con'>
+                <div className='header-sunset-con'></div>
+                <div className='header-sea-con'></div>
+            </div>
+            <header className='un-pad'>
                 <div className='header-icon-con'>
                     <h1>
-                        <span> Would you kindly </span>
-                        <span> Hire </span>
-                        <span> Me </span>
+                        <span> Aldrian Telan </span>
                     </h1>
                     <p>
-                        <span> Aldrian Telan </span>
-                        <span> Web Developer </span>
+                        Web Developer
+                    </p>
+                </div>
+                <div className='header-paragraph-con'>
+                    <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                     </p>
                 </div>
             </header>
