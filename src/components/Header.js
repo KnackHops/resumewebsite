@@ -4,8 +4,21 @@ export default () => {
     return ( 
         <div>
             <div className='header-design-con'>
-                <div className='header-sunset-con'></div>
-                <div className='header-sea-con'></div>
+                <div className='wall-con fd center'>
+                    <div className='window-con'>    
+                        <div className='window-inside fd center'>
+                            <div className='sky-con'>
+
+                            </div>
+                            <div className='split-mid'>
+                                <div className='horizon-left' />
+                                <div className='horizon-right' />
+                            </div>
+                            <div className='sea-con'>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
             <header className='un-pad'>
                 <div className='header-icon-con'>
