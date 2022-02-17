@@ -8,7 +8,8 @@ export default () => {
                     <div className='window-con'>    
                         <div className='window-inside fd center'>
                             <div className='sky-con'>
-
+                                <div className='sun-con' />
+                                <div className='sky-horizon' />
                             </div>
                             <div className='split-mid'>
                                 <div className='horizon-left' />

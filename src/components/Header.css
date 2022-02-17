@@ -37,6 +37,75 @@ div.split-mid {
     background: linear-gradient( to right, rgba( 0, 0, 0, 1 ) 0% 35%, rgba( 200, 35, 50, 1) 50%, rgba( 0, 0, 0, 1 ) 65% 100% );
 }
 
+div.horizon-left, div.horizon-right,
+div.horizon-left::before, div.horizon-right::before,
+div.horizon-left::after, div.horizon-right::after {
+    position: absolute;
+    background-color: black;
+}
+
+div.horizon-left, div.horizon-left::before {
+    border-top-right-radius: 150%;
+}
+
+div.horizon-right, div.horizon-right::before {
+    border-top-left-radius: 150%;
+}
+
+div.horizon-left::before, div.horizon-right::before,
+div.horizon-left::after, div.horizon-right::after {
+    content: "";
+}
+
+div.horizon-left::before, div.horizon-right::before {
+    height: 3px;
+    width: 90%;
+    bottom: -2px;
+}
+
+div.horizon-left::before {
+    border-bottom-right-radius: 150%;
+
+}
+
+div.horizon-right::before {
+    right: 0;
+    border-bottom-left-radius: 150%;
+}
+
+div.horizon-left, div.horizon-right {
+    height: 7px;
+    bottom: calc(100% + 1px );
+}
+
+div.horizon-left {
+    width: 35%;
+    transform: rotate( 1deg );
+}
+
+div.horizon-right {
+    width: 35.5%;
+    left: 65%;
+    transform: rotate( -1deg );
+}
+
+div.horizon-left::after, div.horizon-right::after {
+    height: 8px;
+    width: 100%;
+    background: linear-gradient( to top, rgba( 0, 0, 0, 1 ), rgba( 0, 0, 0, 0 ) );
+    bottom: 50%;
+}
+
+div.horizon-left::after {
+    transform: rotate( 2deg );
+    border-top-right-radius: 150%;
+}
+
+div.horizon-right::after {
+    transform: rotate( -2deg );
+    border-top-left-radius: 150%;
+}
+
 div.sea-con {
     height: 34.75%;
     background-color: rgba( 15, 25, 55, 1);
