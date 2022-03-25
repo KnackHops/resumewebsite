@@ -4,7 +4,7 @@ export default () => {
     return (
         <div className='un-pad'>
             <main>
-                <section className='skills-con'>
+                <section className='skills-con fd center'>
                     <ul className='skills-list'>
                         <li> <p> Programming languages such as Python, Javascript, and C# </p> </li>
                         <li> <p> User friendly, and dynamic designs using HTML, and CSS </p> </li>

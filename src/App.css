@@ -1,18 +1,3 @@
-.un-pad {
-  padding: 0 200px;
-}
-
-@media only screen and ( max-width: 800px ) {
-  .un-pad {
-    padding: 0 20vw;
-  }
-}
-
-@media only screen and ( max-width: 645px ) {
-  .un-pad {
-    padding: 0 5vw;
-  }
-}
 
 ul {
   list-style: none;
@@ -29,4 +14,8 @@ a {
 .center {
   justify-content: center;
   align-items: center;
+}
+
+.un-pad {
+  padding: 0 20vw;
 }

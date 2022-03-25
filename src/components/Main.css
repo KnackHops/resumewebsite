@@ -1,13 +1,3 @@
-section.skills-con > ul.skills-list {
-    display: flex;
-    padding: 5px 0;
-    flex-direction: column;
-    align-items: center;
-}
-
-ul.skills-list > li {
-    margin: 4px 0 8px 0;
-    padding: 8px 12px;
-    font-size: 18px;
-    font-weight: 600;
+section.skills-con {
+    text-align: center;
 }
