@@ -1,0 +1,471 @@
+div.footer-design-con {
+    position: relative;
+    height: 475px;
+    background-color: rgba( 0, 220, 235, 1 );
+    background-image: url('./images/wave.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 125px;
+}
+
+div.footer-design-con > div.sandy-skull-con {
+    position: absolute;
+    height: 35px;
+    width: 60px;
+    background-image: linear-gradient( 180deg, rgba( 185, 155, 110, 1 ), rgba( 215, 205, 180, 1 ) );
+    box-shadow: 0 0 1px black;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 25px;
+    transform: rotateZ(-40deg) scaleX(-1);
+    left: 70%;
+    bottom: 20px;
+    z-index: 1;
+}
+
+@media only screen and ( max-width: 890px ) {
+    div.footer-design-con > div.sandy-skull-con {
+        left: 60%;
+    }
+}
+
+div.footer-design-con > div.sandy-skull-con > span {
+    position: absolute;
+}
+
+div.footer-design-con > div.sandy-skull-con > span.eyes {
+    top: 2px;
+    right: 18px;
+    height: 16px;
+    width: 18px;
+    background-color: rgba( 165, 145, 100, .5 );
+    border-top: 2px solid rgba( 165, 145, 100, 1 );
+    border-left: 2px solid rgba( 165, 145, 100, 1 );
+    border-bottom: 2px solid rgba( 165, 145, 100, 1 );
+    border-radius: 10px;
+}
+
+div.footer-design-con > div.sandy-skull-con > span.teeth {
+    bottom: -7px;
+    height: 8px;
+    width: 5px;
+    background-image: linear-gradient( 90deg, rgba( 175, 115, 55 ), rgba( 215, 205, 180, 1 ) );
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+div.footer-design-con > div.spongebob {
+    position: absolute;
+    z-index: 2;
+    left: 20%;
+    bottom: 10px;
+    height: 80px;
+    width: 60px;
+    border-radius: 5px;
+    transform: rotateZ(25deg) rotateX(25deg);
+    background-image: linear-gradient( 180deg, rgba( 215, 195, 95, 1 ), rgba( 215, 205, 105, 1 ),  rgba( 215, 195, 95, 1 ) );
+    box-shadow: 0 0 1px black;
+}
+
+div.footer-design-con > div.spongebob > span {
+    position: absolute;
+    border-radius: 20px;
+    background-color: rgba(180, 185, 15, 1);
+    border: 2px solid rgba( 160, 165, 0, 1 );
+}
+
+div.footer-design-con > div.spongebob > span:nth-child(1) {
+    height: 8px;
+    width: 8px;
+    left: 10px;
+    top: 10px;
+}
+
+div.footer-design-con > div.spongebob > span:nth-child(2) {
+    height: 4px;
+    width: 4px;
+    right: 10px;
+    top: 5px;
+}
+
+div.footer-design-con > div.spongebob > span:nth-child(3) {
+    height: 12px;
+    width: 12px;
+    right: 20px;
+    top: 18px;
+}
+
+div.footer-design-con > div.spongebob > span:nth-child(4) {
+    height: 6px;
+    width: 6px;
+    left: 16px;
+    bottom: 25px;
+}
+
+div.footer-design-con > div.spongebob > span:nth-child(5) {
+    height: 16px;
+    width: 16px;
+    right: 10px;
+    bottom: 15px;
+}
+
+div.footer-design-con > div.footer-underground-con {
+    position: absolute;
+    width: 100%;
+    height: 175px;
+    bottom: 0;
+    background-image: linear-gradient( 360deg, rgba( 255, 255, 255, .75 ), transparent );
+}
+
+div.footer-underground-con > div.rock {
+    position: absolute;
+    background-color: rgba( 120, 150, 135, 1 );
+    background-image: linear-gradient( 120deg, rgba( 120, 150, 135, 1 ), rgba( 255, 255, 255, .75 ), rgba( 120, 150, 135, 1 ) 75% 100% );
+    height: 75px;
+    width: 150px;
+    clip-path: polygon(48% 5%, 72% 19%, 91% 36%, 100% 91%, 81% 97%, 24% 96%, 3% 80%, 6% 27%);
+    left: 40px;
+}
+
+div.footer-underground-con > div.starfish-con {
+    position: absolute;
+    height: 85px;
+    width: 85px;
+    background-color: orangered;
+    left: 120px;
+    top: 0;
+    border-radius: 30px;
+    transform: rotateX(40deg) rotateY(30deg) rotateZ(-20deg);
+}
+
+div.footer-underground-con > div.starfish-con > span {
+    position: absolute;
+    border-left: 25px solid transparent;
+    border-right: 40px solid transparent;
+    border-bottom: 50px solid orangered;
+    border-bottom-left-radius: 20px;
+}
+
+div.footer-underground-con > div.starfish-con::before,
+div.footer-underground-con > div.starfish-con::after {
+    content: "";
+    top: 20px;
+    height: 10px;
+    width: 10px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 12px black;
+    animation: eyes_anim 4s linear infinite;
+}
+
+div.footer-underground-con > div.starfish-con::before {
+    left: 30px;
+}
+
+div.footer-underground-con > div.starfish-con::after {
+    left: 60px;
+}
+
+div.footer-underground-con > div.starfish-con > span:nth-child(1) {
+    top: -25px;
+    left: 20px;
+    transform: rotateZ(130deg);
+}
+
+div.footer-underground-con > div.starfish-con > span:nth-child(2) {
+    top: 0px;
+    left: -30px;
+    transform: rotateZ(55deg);
+}
+
+div.footer-underground-con > div.starfish-con > span:nth-child(3) {
+    top: 50px;
+    left: -25px;
+    transform: rotateZ(-20deg);
+}
+
+div.footer-underground-con > div.starfish-con > span:nth-child(4) {
+    top: 55px;
+    right: -10px;
+    transform: rotateZ(-90deg);
+}
+
+div.footer-underground-con > div.starfish-con > span:nth-child(5) {
+    top: 15px;
+    right: -35px;
+    transform: rotateZ(-155deg);
+}
+
+div.footer-underground-con > div.crab-con {
+    position: absolute;
+    height: 80px;
+    width: 120px;
+    right: 40px;
+    bottom: 20px;
+}
+
+div.footer-underground-con > div.crab-con > div.eyes {
+    position: absolute;
+    height: 16px;
+    width: 5px;
+    background-color: orangered;
+    box-shadow: 0 0 1px black;
+    border-radius: 10px;
+    top: 10px;
+}
+
+div.footer-underground-con > div.crab-con > div.eyes:nth-child(1) {
+    left: 35%;
+    z-index: 5;
+    transform: rotateZ(-20deg);
+}
+
+div.footer-underground-con > div.crab-con > div.eyes:nth-child(2) {
+    right: 35%;
+    z-index: 5;
+    transform: rotateZ(20deg);
+}
+
+div.footer-underground-con > div.crab-con > div.eyes:nth-child(1)::before {
+    content: "";
+    width: 100%;
+    height: 4px;
+    background-color: black;
+    border-radius: 10px;
+    animation: crab_eyes_anim 12s linear infinite;
+}
+
+div.footer-underground-con > div.crab-con > div.eyes:nth-child(2)::before {
+    content: "";
+    width: 100%;
+    height: 4px;
+    background-color: black;
+    border-radius: 10px;
+    animation: crab_eyes_anim 13s linear infinite;
+}
+
+@keyframes crab_eyes_anim {
+    98% {
+        height: 4px;
+    }
+
+    99% {
+        height: 0px;
+    }
+
+    100% {
+        height: 4px;
+    }
+    
+}
+
+div.footer-underground-con > div.crab-con > div.body {
+    position: absolute;
+    height: 40px;
+    width: 80px;
+    background-image: linear-gradient( 180deg, orangered 0% 60%, black 100% );
+    border-radius: 25px;
+    right: calc(50% - 40px);
+    bottom: 20px;
+}
+
+div.footer-underground-con > div.crab-con > div.body > span.limbs {
+    position: absolute;
+    width: 30px;
+    height: 6px;
+    background-color: orangered;
+    box-shadow: 0 0 1px black;
+    border-radius: 12px;
+    bottom: 0;
+}
+
+div.footer-underground-con > div.crab-con > div.body > span.limbs.left {
+    left: -15px;
+}
+
+div.footer-underground-con > div.crab-con > div.body > span.limbs.right {
+    right: -15px;
+}
+
+div.footer-underground-con > div.crab-con > div.body > span.limbs.right:nth-child(1) {
+    bottom: 5px;
+    transform: rotateZ(-10deg);
+}
+
+div.footer-underground-con > div.crab-con > div.body > span.limbs.right:nth-child(3) {
+    bottom: -5px;
+    transform: rotateZ(20deg);
+}
+
+div.footer-underground-con > div.crab-con > div.body > span.limbs.right:nth-child(4) {
+    bottom: -10px;
+    transform: rotateZ(40deg);
+}
+
+div.footer-underground-con > div.crab-con > div.body > span.limbs.left:nth-child(5) {
+    bottom: 5px;
+    transform: rotateZ(10deg);
+}
+
+div.footer-underground-con > div.crab-con > div.body > span.limbs.left:nth-child(7) {
+    bottom: -5px;
+    transform: rotateZ(-20deg);
+}
+
+div.footer-underground-con > div.crab-con > div.body > span.limbs.left:nth-child(8) {
+    bottom: -10px;
+    transform: rotateZ(-40deg);
+}
+
+div.footer-underground-con > div.crab-con > div.crab-pincer-right,
+div.footer-underground-con > div.crab-con > div.crab-pincer-left {
+    position: absolute;
+    height: 15px;
+    width: 30px;
+    background-color: orangered;
+    border-radius: 25px;
+    bottom: 15px;
+    box-shadow: 0 0 1px black;
+}
+
+div.footer-underground-con > div.crab-con > div.crab-pincer-left {
+    transform: rotate(20deg);
+    left: 20px;
+    animation: crab_pincer_left_anim 12s linear infinite;
+}
+
+@keyframes crab_pincer_left_anim {
+    10% {
+        transform: rotate(20deg);
+    }
+
+    15% {
+        transform: rotate(0deg);
+    }
+
+    20% {
+        transform: rotate(20deg);
+    }
+}
+
+div.footer-underground-con > div.crab-con > div.crab-pincer-right {
+    transform: rotate(-10deg);
+    right: 20px;
+    animation: crab_pincer_right_anim 12s linear infinite;
+}
+
+@keyframes crab_pincer_right_anim {
+    10% {
+        transform: rotate(-10deg);
+    }
+
+    15% {
+        transform: rotate(10deg);
+    }
+
+    20% {
+        transform: rotate(-10deg);
+    }
+}
+
+div.footer-underground-con > div.crab-con > div.crab-pincer-left::before,
+div.footer-underground-con > div.crab-con > div.crab-pincer-left::after,
+div.footer-underground-con > div.crab-con > div.crab-pincer-right::before,
+div.footer-underground-con > div.crab-con > div.crab-pincer-right::after {
+    content: "";
+}
+
+div.footer-underground-con > div.crab-con > div.crab-pincer-left::before,
+div.footer-underground-con > div.crab-con > div.crab-pincer-left::after {
+    border-left: 15px solid orangered;
+    box-shadow: -2px 0 2px black;
+    right: 100%;
+    left: 100%;
+}
+
+div.footer-underground-con > div.crab-con > div.crab-pincer-left::before {
+    border-top: 0px solid transparent;
+    border-bottom: 10px solid transparent;
+    top: 2px;
+}
+
+div.footer-underground-con > div.crab-con > div.crab-pincer-left::after {
+    border-top: 10px solid transparent;
+    border-bottom: 0px solid transparent;
+    bottom: 2px;
+}
+
+div.footer-underground-con > div.crab-con > div.crab-pincer-right::before,
+div.footer-underground-con > div.crab-con > div.crab-pincer-right::after {
+    border-right: 15px solid orangered;
+    box-shadow: 2px 0 2px black;
+    right: 100%;
+}
+
+div.footer-underground-con > div.crab-con > div.crab-pincer-right::before {
+    border-top: 0px solid transparent;
+    border-bottom: 10px solid transparent;
+    top: 2px;
+    animation: upper_pincer_anim 6s linear infinite;
+}
+
+div.footer-underground-con > div.crab-con > div.crab-pincer-right::after {
+    border-top: 10px solid transparent;
+    border-bottom: 0px solid transparent;
+    bottom: 2px;
+    animation: bottom_pincer_anim 6s linear infinite;
+}
+
+@keyframes upper_pincer_anim {
+    0% {
+        transform: rotateZ(0deg);
+    }
+
+    1% {
+        transform: rotateZ(20deg);
+    }
+
+    10% {
+        top: 3px;
+        transform: rotateZ(-20deg);
+    }
+    
+    15% {
+        top: 2px;
+        transform: rotateZ(0deg);
+    }
+}
+
+@keyframes bottom_pincer_anim {
+    0% {
+        transform: rotateZ(0deg);
+    }
+
+    1% {
+        transform: rotateZ(-20deg);
+    }
+
+    10% {
+        bottom: 3px;
+        transform: rotateZ(20deg);
+    }
+    
+    15% {
+        bottom: 2px;
+        transform: rotateZ(0deg);
+    }
+}
+
+footer {
+    height: 150px;
+}
+
+footer li {
+    width: 80px;
+    font-size: 150%;
+}
+
+footer li a:hover {
+    color: aquamarine;
+}
